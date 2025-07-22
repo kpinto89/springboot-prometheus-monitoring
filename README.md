@@ -2,6 +2,8 @@
 cd springboot-prometheus-demo
 ./mvnw clean package -DskipTests
 
+http://localhost:8080/hello
+
 ✅ 3. Grafana Dashboard (Optional)
 You can use this Spring Boot Micrometer dashboard JSON or create your own.
 Place it in: grafana/dashboards/springboot-dashboard.json
