@@ -22,6 +22,14 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+bootJar {
+    archiveFileName = 'app.jar'
+}
+
+springBoot {
+    mainClass = 'org.demo.PrometheusDemoApplication'
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
