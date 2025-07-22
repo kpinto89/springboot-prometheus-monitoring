@@ -1,5 +1,5 @@
 # springboot-prometheus-demo
-cd springboot-prometheeus-demo
+cd springboot-prometheus-demo
 ./mvnw clean package -DskipTests
 
 ✅ 3. Grafana Dashboard (Optional)

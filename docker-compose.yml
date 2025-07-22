@@ -1,9 +1,10 @@
 version: '3.8'
 
 services:
-  springboot-app:
-    build: ./springboot-app
-    container_name: springboot-app
+  springboot-prometheus-demo:
+    image: springboot-prometheus-demo
+    build: ./springboot-prometheus-demo
+    container_name: springboot-prometheus-demo
     ports:
       - "8080:8080"
 
