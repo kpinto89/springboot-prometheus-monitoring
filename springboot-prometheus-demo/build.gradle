@@ -23,11 +23,9 @@ dependencies {
 }
 
 bootJar {
-    archiveFileName = 'app.jar'
-}
-
-springBoot {
-    mainClass = 'org.demo.PrometheusDemoApplication'
+    archiveBaseName = 'springboot-prometheus-demo'
+    archiveVersion = '0.0.1-SNAPSHOT'
+    archiveClassifier = '' // removes the '-plain' suffix
 }
 
 tasks.named('test') {
